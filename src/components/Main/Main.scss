@@ -1,0 +1,76 @@
+$color: white;
+$background: rgb(202, 153, 17);
+
+.sobre {
+    h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: $background
+    }
+
+    span {
+        color: aliceblue;
+    }
+
+    .itens {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        text-align: justify;
+        flex-wrap: wrap;
+        
+
+      
+
+
+        .cafe-xicara {
+            max-width: 400px;
+
+            img {
+                max-width: 100%;
+                border-radius: 5px;
+            }
+        }
+
+        .nossa-descricao {
+            width: 400px;
+            padding: 10px;
+            border-radius: 5px;
+            padding-top: 10px;
+            background-color: #111;
+
+            h3 {
+                color: $color;
+            }
+
+            p {
+                margin-top: 15px;
+                color: $color;
+            }
+
+            button {
+                margin-top: 15px;
+                border: none;
+                outline: none;
+                padding: 10px 10px;
+                background-color: $background;
+                color: $color;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $background
+                }
+
+            }
+        }
+
+    }
+
+    .vazio{
+        visibility: hidden;
+    }
+
+
+
+}

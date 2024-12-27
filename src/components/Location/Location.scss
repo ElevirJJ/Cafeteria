@@ -1,0 +1,23 @@
+$color: white;
+$background: rgb(202, 153, 17);
+
+.modal {
+    padding-top: 50px;
+    h3 {
+        text-align: center;
+        padding-bottom: 20px;
+        color: $color;
+    }
+
+    span {
+        color: $background;
+    }
+
+    .map {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,17 @@
+$color: black;
+$background: rgb(202, 153, 17);
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: $background ;
+    border-radius: 50px;
+    
+    p{
+        color: $color;
+        font-weight: bold !important;
+    }
+}

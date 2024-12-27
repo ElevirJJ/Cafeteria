@@ -1,0 +1,57 @@
+$color: white;
+$background: rgb(202, 153, 17);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    padding: 8rem 0;
+
+
+    .content {
+        h3 {
+            color: $color;
+            font-size: 2.4em;
+
+        }
+    }
+
+    .assunto {
+        padding: 2rem 0;
+
+        p {
+            color: $color;
+            width: 50%;
+        }
+
+        button {
+            margin-top: 2rem;
+            padding: 5px;
+            background-color: $background;
+            color: $color;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $background;
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 568px) {
+    .container {
+        .assunto {
+
+            p {
+                color: $color;
+                width: 100%;
+            }
+        }
+    }
+}
